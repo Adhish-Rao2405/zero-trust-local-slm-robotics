@@ -1,0 +1,45 @@
+{
+  "source_phase": "Phase 4.5 Evidence Pack and Reproducibility Audit",
+  "metric_source": "Computed from current Phase 4 output files where available",
+  "prototype3_input_rows": 120,
+  "prototype4_execution_records": 240,
+  "rows_per_mode": {
+    "baseline": 120,
+    "zero_trust": 120
+  },
+  "baseline_outcome_counts": {
+    "success": 14,
+    "semantic_failure": 0,
+    "unsafe": 76,
+    "rejected": 0,
+    "no_op": 30
+  },
+  "zero_trust_outcome_counts": {
+    "success": 14,
+    "semantic_failure": 0,
+    "unsafe": 0,
+    "rejected": 106,
+    "no_op": 0
+  },
+  "baseline_false_accepts": 76,
+  "zero_trust_false_accepts": 0,
+  "safety_latency_frontier_false_accepts": [
+    76,
+    4,
+    0,
+    0
+  ],
+  "safety_latency_frontier_configurations": [
+    "schema_only",
+    "schema_semantic",
+    "schema_semantic_uncertainty",
+    "full_zero_trust"
+  ],
+  "test_command": "python -m pytest tests -v --basetemp=tmp/pytest",
+  "last_known_test_result": "30 passed",
+  "notes": [
+    "Outcome counts were computed from results/summaries/prototype4_execution_comparison.csv.",
+    "Safety-latency frontier false accepts were computed from results/summaries/safety_latency_frontier.csv.",
+    "Prototype 3 input rows were counted from datasets/prototype3_results/rq5_comparison.jsonl."
+  ]
+}
