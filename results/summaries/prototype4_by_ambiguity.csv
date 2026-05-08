@@ -1,0 +1,7 @@
+ambiguity_level,mode,total,accepted_count,rejection_count,success_count,semantic_failure_count,unsafe_count,no_op_count,false_accept_count,success_rate,false_accept_rate
+clear,baseline_trust_model,40,35,5,14,0,21,5,21,0.35,0.525
+clear,zero_trust_pipeline,40,14,26,14,0,0,0,0,0.35,0.0
+moderate,baseline_trust_model,40,29,11,0,0,29,11,29,0.0,0.725
+moderate,zero_trust_pipeline,40,0,40,0,0,0,0,0,0.0,0.0
+high,baseline_trust_model,40,26,14,0,0,26,14,26,0.0,0.65
+high,zero_trust_pipeline,40,0,40,0,0,0,0,0,0.0,0.0
