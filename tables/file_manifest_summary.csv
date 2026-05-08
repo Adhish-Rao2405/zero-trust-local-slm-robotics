@@ -1,0 +1,7 @@
+group,file_count,description
+input evidence,12,"Imported Prototype 3 benchmark, result, and reference files"
+generated output,1,Primary Phase 4 execution comparison output
+derived analysis,2,False-accept and safety-latency derived analyses
+summary artefact,4,Human-readable metrics and aggregate summaries
+evidence pack,4,Reproducibility documentation and manifests
+documentation,1,Methodology notes in docs/

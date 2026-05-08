@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Safety-latency frontier across validation stringency configurations.}
+\label{tab:phase4_safety_latency_frontier}
+\begin{tabular}{lrrrrr}
+\hline
+Configuration & Validation stages & False accepts & Reduction & Mean latency ms & Notes \\
+\hline
+schema\_only & schema & 76 & 0 & 5785.79 & accepted-row latency available \\
+schema\_semantic & schema + semantic & 4 & 72 & 6148.83 & accepted-row latency available \\
+schema\_semantic\_uncertainty & schema + semantic + uncertainty & 0 & 76 & 6152.36 & accepted-row latency available \\
+full\_zero\_trust & schema + semantic + uncertainty + safety & 0 & 76 & 6152.36 & accepted-row latency available \\
+\hline
+\end{tabular}
+\end{table}

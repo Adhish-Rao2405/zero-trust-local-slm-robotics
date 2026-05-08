@@ -1,0 +1,5 @@
+configuration,validation_stages_enabled,false_accepts,false_accept_reduction_from_baseline,mean_latency_ms,notes
+schema_only,schema,76,0,5785.79,accepted-row latency available
+schema_semantic,schema + semantic,4,72,6148.83,accepted-row latency available
+schema_semantic_uncertainty,schema + semantic + uncertainty,0,76,6152.36,accepted-row latency available
+full_zero_trust,schema + semantic + uncertainty + safety,0,76,6152.36,accepted-row latency available
