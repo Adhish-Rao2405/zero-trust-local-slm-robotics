@@ -1,0 +1,99 @@
+{
+  "extension_track": "Prototype 4 optional extension track",
+  "audit_status": "PASS",
+  "phases": {
+    "phase_4_7": {
+      "status": "PASS",
+      "checks": {
+        "evidence_exists": true,
+        "commands_evaluated_is_30": true,
+        "results_csv_rows_match_commands": true,
+        "decision_counts_recorded": true
+      },
+      "metrics": {
+        "commands_evaluated": 30,
+        "execute_count": 24,
+        "clarify_count": 4,
+        "reject_count": 2,
+        "results_csv_rows": 30
+      },
+      "evidence_paths": {
+        "summary": "results/prototype4_extensions/phase_4_7/ambiguity_gate_summary.json",
+        "results": "results/prototype4_extensions/phase_4_7/ambiguity_gate_results.csv"
+      }
+    },
+    "phase_4_8": {
+      "status": "PASS",
+      "checks": {
+        "evidence_exists": true,
+        "clarification_cases_evaluated_is_5": true,
+        "results_csv_rows_match_cases": true,
+        "recovered_cases_is_5": true,
+        "recovery_rate_is_1": true
+      },
+      "metrics": {
+        "clarification_cases_evaluated": 5,
+        "recovered_cases": 5,
+        "recovery_rate": 1.0,
+        "results_csv_rows": 5
+      },
+      "evidence_paths": {
+        "summary": "results/prototype4_extensions/phase_4_8/clarification_recovery_summary.json",
+        "results": "results/prototype4_extensions/phase_4_8/clarification_recovery_results.csv"
+      }
+    },
+    "phase_4_9": {
+      "status": "PASS",
+      "checks": {
+        "evidence_exists": true,
+        "formal_safety_cases_evaluated_is_18": true,
+        "results_csv_rows_match_cases": true,
+        "expected_unsafe_cases_is_10": true,
+        "unsafe_cases_correctly_rejected_is_10": true,
+        "unsafe_rejection_rate_is_1": true,
+        "critical_violations_detected_is_7": true
+      },
+      "metrics": {
+        "formal_safety_cases_evaluated": 18,
+        "expected_unsafe_cases": 10,
+        "unsafe_cases_correctly_rejected": 10,
+        "unsafe_rejection_rate": 1.0,
+        "critical_violations_detected": 7,
+        "results_csv_rows": 18
+      },
+      "evidence_paths": {
+        "summary": "results/prototype4_extensions/phase_4_9/formal_safety_audit_summary.json",
+        "results": "results/prototype4_extensions/phase_4_9/formal_safety_audit_results.csv"
+      }
+    }
+  },
+  "isolation_checks": {
+    "outputs_under_prototype4_extensions": true,
+    "locked_core_not_required_for_audit": true,
+    "phase_4_10_writes_only_own_results_folder": true
+  },
+  "evidence_checks": {
+    "phase_4_7_summary_exists": true,
+    "phase_4_7_results_exists": true,
+    "phase_4_8_summary_exists": true,
+    "phase_4_8_results_exists": true,
+    "phase_4_9_summary_exists": true,
+    "phase_4_9_results_exists": true
+  },
+  "documentation_checks": {
+    "phase_4_7_exists": true,
+    "phase_4_8_exists": true,
+    "phase_4_9_exists": true
+  },
+  "source_folder_checks": {
+    "phase_4_7_exists": true,
+    "phase_4_8_exists": true,
+    "phase_4_9_exists": true
+  },
+  "test_folder_checks": {
+    "phase_4_7_exists": true,
+    "phase_4_8_exists": true,
+    "phase_4_9_exists": true
+  },
+  "freeze_statement": "The Prototype 4 optional extension track is frozen at Phase 4.10. It remains isolated from the locked MSc core and should be treated as an optional advanced contribution rather than a dependency of the main Prototype 4 evidence pipeline."
+}
