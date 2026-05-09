@@ -1,0 +1,21 @@
+{
+  "total_cases": 18,
+  "passed_cases": 8,
+  "failed_cases": 10,
+  "expected_safe_cases": 8,
+  "expected_unsafe_cases": 10,
+  "unsafe_cases_correctly_rejected": 10,
+  "unsafe_rejection_rate": 1.0,
+  "rule_violation_counts": {
+    "FS-001": 1,
+    "FS-002": 1,
+    "FS-004": 1,
+    "FS-005": 1,
+    "FS-006": 1,
+    "FS-007": 1,
+    "FS-008": 1,
+    "FS-009": 1,
+    "FS-010": 2
+  },
+  "critical_violation_count": 7
+}
