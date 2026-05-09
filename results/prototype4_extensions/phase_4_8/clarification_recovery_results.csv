@@ -1,0 +1,6 @@
+original_command,original_decision,original_ambiguity_score,clarified_command,clarified_decision,clarified_ambiguity_score,score_delta,recovered
+Move it there.,REJECT,0.7,Move the red cube to bin A.,EXECUTE,0.0,0.7,True
+Pick up the thing.,CLARIFY,0.45,Pick up the blue cylinder.,EXECUTE,0.0,0.45,True
+Sort everything properly.,CLARIFY,0.6,Place the red cube in bin A and the blue cylinder in bin B.,EXECUTE,0.0,0.6,True
+Move the red one near the other one.,CLARIFY,0.4,Move the red cube to the left tray.,EXECUTE,0.0,0.4,True
+Handle the object.,CLARIFY,0.6,Pick the green cube and place it in bin C.,EXECUTE,0.0,0.6,True

@@ -1,0 +1,10 @@
+metric,value
+Prototype 3 input rows,120
+Prototype 4 execution records,240
+Baseline false accepts,76
+Zero-trust false accepts,0
+Baseline success count,14
+Zero-trust success count,14
+Baseline no-op count,30
+Zero-trust rejected count,106
+Test result,30 passed

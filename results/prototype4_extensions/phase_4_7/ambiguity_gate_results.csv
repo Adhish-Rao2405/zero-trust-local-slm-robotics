@@ -1,0 +1,31 @@
+command_id,command,ambiguity_score,decision,reasons
+C01,Pick up the medicine cup,0,EXECUTE,
+C02,Place the pill box on the tray,0,EXECUTE,
+C03,Move the gauze pack to the left zone,0,EXECUTE,
+C04,Pick up the pill box,0,EXECUTE,
+C05,Place the medicine cup in the handover zone,0,EXECUTE,
+C06,Open the gripper,0,EXECUTE,
+C07,Reset the robot,0,EXECUTE,
+C08,Describe the scene,0,EXECUTE,
+C09,Move the tray to the right zone,0.2,EXECUTE,missing_object
+C10,Pick up the gauze pack and place it on the tray,0,EXECUTE,
+C11,Move the medicine cup to the safe area,0,EXECUTE,
+C12,Place the pill box near the handover zone,0,EXECUTE,
+C13,Take the correct one from the tray,0.2,EXECUTE,multiple_possible_objects
+C14,Put the gauze pack in the usual place,0,EXECUTE,
+C15,Hand over the medicine cup,0,EXECUTE,
+C16,Move the pill box a bit to the left zone,0,EXECUTE,
+C17,Pick up the cup on the tray,0,EXECUTE,
+C18,Get this ready for handover,0.2,EXECUTE,underspecified_task
+C19,Place the medicine cup in the safe area if available,0,EXECUTE,
+C20,Transfer the gauze pack to a nearby tray,0,EXECUTE,
+C21,Pick that,0.45,CLARIFY,pronoun_without_referent;missing_object
+C22,Move it there,0.7,REJECT,pronoun_without_referent;missing_target_location;ambiguous_location
+C23,Sort this out,0.35,CLARIFY,weak_action_verb;underspecified_task
+C24,Get this ready,0.2,EXECUTE,underspecified_task
+C25,Put it over there,0.7,REJECT,pronoun_without_referent;missing_target_location;ambiguous_location
+C26,Move somewhere safe,0.45,CLARIFY,missing_target_location;ambiguous_location
+C27,Choose the correct one,0.2,EXECUTE,multiple_possible_objects
+C28,Do it properly,0.35,CLARIFY,weak_action_verb;underspecified_task
+C29,Move over,0.25,EXECUTE,missing_target_location
+C30,Place it in the safe area,0.25,EXECUTE,pronoun_without_referent
