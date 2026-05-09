@@ -1,0 +1,15 @@
+{
+  "total_cases": 5,
+  "recovered_cases": 5,
+  "recovery_rate": 1.0,
+  "mean_original_ambiguity_score": 0.55,
+  "mean_clarified_ambiguity_score": 0.0,
+  "mean_score_delta": 0.55,
+  "original_decision_counts": {
+    "CLARIFY": 4,
+    "REJECT": 1
+  },
+  "clarified_decision_counts": {
+    "EXECUTE": 5
+  }
+}

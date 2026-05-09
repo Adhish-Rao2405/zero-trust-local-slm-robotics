@@ -1,0 +1,10 @@
+{
+  "total_commands": 30,
+  "decision_counts": {
+    "CLARIFY": 4,
+    "EXECUTE": 24,
+    "REJECT": 2
+  },
+  "mean_ambiguity_score": 0.15,
+  "source": "C:\\Users\\reach\\zero-trust-local-slm-robotics\\datasets\\prototype3_results\\benchmark_v1.json"
+}
